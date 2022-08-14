@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(30, 38%, 92%);  
+ }
+ 
+ .container{
+     border: 2px white solid;
+     border-radius: 14px;
+     width: 1440px;
+     display: flex;
+     background-color: hsl(0, 0, 100%);
+     height: 420px;
+     width: 560px;
+     background-color: white;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+ }
+ 
+ .img{
+     border-bottom-left-radius: 12px;
+     border-top-left-radius: 12px;
+ }
+ 
+ .text{
+     padding-left: 30px;
+     padding-right: 30px;
+ }
+ 
+ .h4{
+     font-family: 'Times New Roman', Times, serif;
+     color: hsl(229, 4%, 48%);
+ }
+ 
+ .h1{
+     font-size: 40px;
+     margin-top: 0px;
+     color: hsl(227, 13%, 29%);
+ }
+ 
+ .about{
+     color: hsl(228, 12%, 48%);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-top: -7px;
+     font-size: 12px;
+     width: 200px;
+ }
+ 
+ #prices{
+     display: flex;
+     align-items: center;
+     margin-top: -15px;
+ }
+ 
+ .price{
+     color: hsl(158, 36%, 37%);
+     font-family: serif;
+ }
+ 
+ .delprice{
+     padding-left: 23px;
+     text-decoration: line-through;
+     color: hsl(228, 12%, 48%);
+ }
+ 
+ .click{
+     height: 44px;
+     width: 220px;
+     border: 0px white solid;
+     border-radius: 13px;
+     background-color: hsl(158, 36%, 37%);
+     color: hsl(0, 0%, 100%);
+     font-style: bold;
+     font-weight: 29px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     cursor: progress;
+     }
